@@ -1,0 +1,14 @@
+{
+  WINDOWS.OS : [
+    'Path': 'C:\\Windows\\System32'
+    'limit': 4000,
+    'port': 4040,
+    'patch': 'uri.loger.os.systems.dell',
+    'actions': [
+      'upload-direct': [
+        'usecase': 'ssh',
+        'key': os.logger()
+        ]
+      ]
+    ]
+}
